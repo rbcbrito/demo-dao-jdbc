@@ -22,6 +22,12 @@ public class Program2 {
 		for (Department obj : list) {
 			System.out.println(obj);
 		}
+		
+		System.out.println("\n=== TEST 3: department findAll ===");
+		list = departmentDao.findAll();
+		for (Department obj : list) {
+			System.out.println(obj);
+		}
 	}
 
 }

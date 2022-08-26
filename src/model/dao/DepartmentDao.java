@@ -16,4 +16,6 @@ public interface DepartmentDao {
 
 	List<Department> findAll();
 	
+	List<Department> findByName(Department name);
+	
 }
